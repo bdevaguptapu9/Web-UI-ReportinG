@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+  <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_EZrzBWjDMop0x3jZk8D3v");
+      
+      emailjs.send("default_service","template_2rhgaMlo",{to_name: "Bharat", message_html: "http://api.page2images.com/directlink?p2i_url=twitter.com&p2i_key=71118e609e040668"})
+      .then(function(response) {
+         console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
+      }, function(err) {
+         console.log("FAILED. error=", err);
+      });
+      
+      
+      
+      
+   })();
+   
+   
+    
+</script>
+
+ 
+</head>
+
+<body>
+
+<p>Mailing Page......</p><br><br>
+<p>Email of the Screenshot has been sent to Associated EmailId</p><br><br>
+
+<form id="myform8" action="index.jsp" method="post">
+    <input type="submit" value="Sign Out" >
+</form>
+
+</body>
+
+</html>
