@@ -1,4 +1,6 @@
-# Web-UI-ReportinG
+# Web-UI-ReportinG 
+(Note:Screenshots for this application are available in the Screenshots folder and also in the issues tab.Have a look)        
+
 It is a User Interface reporting web application
 and Simple implementation of Web Repository.
 you can Sign Up in to the web page by giving your details and creating credentials and then 
